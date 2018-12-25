@@ -18,7 +18,7 @@ Possible parameters:
   set to `false`
 * page – the number of the page with employers (counted from 0, by default
   set to 0)
-* per_page – number of elements per page (by default – 20)
+* per_page – number of elements per page (by default – 20, max value - 100)
 
 Maximum number of employers displayed – 2000.
 
@@ -39,7 +39,9 @@ Response:
             "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1455",
             "open_vacancies": 19,
             "logo_urls": {
-              "90":  "https://hh.ru/employer-logo/289027.png"
+              "90":  "https://hh.ru/employer-logo/289027.png",
+              "240": "https://hh.ru/employer-logo/289169.png",
+              "original": "https://hh.ru/file/2352807.png"
             }
         }
     ]
